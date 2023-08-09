@@ -2,6 +2,10 @@
 
 My first Django project, which aims to help to user to keep track on his tasks using a simple graphical user interface (GUI) for interaction with the app.
 
+
+https://github.com/MichaelBenIsrael/Todo_List_App_Django/assets/73841983/12f6f466-c061-4d56-ab29-f24bb279b817
+
+
 ## Project Hierarchy
 
 The project consists of the following files and folders:
