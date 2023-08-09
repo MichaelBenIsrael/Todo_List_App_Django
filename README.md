@@ -11,7 +11,9 @@ The project consists of the following files and folders:
 
 ### Folders
 1. 'todo': Contains our app settings and list of urls.
-   - 'settins.py':
+   - 'settins.py': Used to store configuration information in Django
+   - 'asgi.py': Provide a standard interface between async-capable Python web servers, frameworks, and applications.
+   - 'wsgi.py: Application callable which the application server uses to communicate with your code.
    
 2. 'tasks': Contains the both the frontend and the backend logic.
    - 'views.py': Contains functions that takes HTTP request and returns HTTP response.
@@ -21,10 +23,10 @@ The project consists of the following files and folders:
 
 ## Getting Started
 
-To run the BMC Via Simulation project, follow these steps:
+To run the To-Do List web application, follow these steps:
 
-1. Clone the repository: `git clone https://github.com/your-username/BMC-Via-Simulation.git`
-2. Install the required dependencies using pip: `pip install -r requirements.txt`
-3. Open `MainWindow.py` and run it to start the GUI.
-
-
+1. Clone the repository: `git clone https://github.com/MichaelBenIsrael/Todo_List_App_Django.git`.
+2. Install the required dependencies using pip: `pip install -r requirements.txt`.
+3. Open the terminal and change directory into the project's path using cd: 'cd <project path>'.
+4. Run the sever using the command: 'python manage.py runserver'
+5. Paste the returned url into your web browser and you are good to go!
