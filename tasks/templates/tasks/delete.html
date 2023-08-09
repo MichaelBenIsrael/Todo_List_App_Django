@@ -5,8 +5,15 @@
     <title>Title</title>
 </head>
 <body>
+
 <p>Are you sure you want to delete "{{item}}"</p>
 
-<a href="{% url 'list' %">Cancel</a>
+<a href="javascript:history.back()" >Cancel</a>
+
+<form method="POST" action="">
+	{% csrf_token %}
+	<input type="submit" name="Confirm">
+</form>
+
 </body>
 </html>
